@@ -1,0 +1,32 @@
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/jonathan/dev/cppPluralCourse/build --config Debug --target cppPluralCourse -- -j 6
+[build] Scanning dependencies of target foo
+[build] [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+[build] [ 50%] Linking CXX static library libfoo.a
+[build] [ 50%] Built target foo
+[build] [ 75%] Linking CXX executable cppPluralCourse
+[build] [100%] Built target cppPluralCourse
+[build] Build finished with exit code 0
+
+
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/jonathan/dev/cppPluralCourse/build --config Debug --target cppPluralCourse -- -j 6
+[build] [ 50%] Built target foo
+[build] Scanning dependencies of target cppPluralCourse
+[build] [ 75%] Building CXX object CMakeFiles/cppPluralCourse.dir/main.cpp.o
+[build] [100%] Linking CXX executable cppPluralCourse
+[build] [100%] Built target cppPluralCourse
+[build] Build finished with exit code 0
+
+
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/jonathan/dev/cppPluralCourse/build --config Debug --target cppPluralCourse -- -j 6
+[build] Scanning dependencies of target foo
+[build] [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+[build] [ 50%] Linking CXX static library libfoo.a
+[build] [ 50%] Built target foo
+[build] Scanning dependencies of target cppPluralCourse
+[build] [ 75%] Building CXX object CMakeFiles/cppPluralCourse.dir/main.cpp.o
+[build] [100%] Linking CXX executable cppPluralCourse
+[build] [100%] Built target cppPluralCourse
+[build] Build finished with exit code 0

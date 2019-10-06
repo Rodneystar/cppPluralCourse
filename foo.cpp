@@ -1,5 +1,5 @@
 #include "foo.h"
 
 int add1(double n) {
-    return n+3;
+    return n+1;
 }

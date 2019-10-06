@@ -3,14 +3,18 @@ services:
   exampleservice:
     environment:
       - bootstrap.memory_lock=true
-    build: 
-	  - context: .
-	  - dockerfile: Dockerfile
-    volumes-from:
-      data
+    build: .
+    volumes_from:
+      - data
+    command: cmake --build /home/jonathan/dev/cppPluralCourse/build  --config Debug --target cppPluralCourse -- -j 6
+  printingls:
+    environment:
+      - bootstrap.memory_lock=true
+    build: .
+    volumes_from:
+      - data
+    command: /buildEntrypoint.sh
   data:
-    build: 
-	  - context: .
-    - dockerfile: Dockerfile
+    build: .
     volumes: 
-    - /.:/usr/src/myapp
+      - .:/home/jonathan/dev/cppPluralCourse
