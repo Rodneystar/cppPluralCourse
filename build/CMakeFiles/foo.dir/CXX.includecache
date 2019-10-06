@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jonathan/dev/cppPluralCourse/foo.cpp
+foo.h
+/home/jonathan/dev/cppPluralCourse/foo.h
+
+/home/jonathan/dev/cppPluralCourse/foo.h
+

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  exampleservice:
+    environment:
+      - bootstrap.memory_lock=true
+    build: 
+	  - context: .
+	  - dockerfile: Dockerfile
+    volumes-from:
+      data
+  data:
+    build: 
+	  - context: .
+    - dockerfile: Dockerfile
+    volumes: 
+    - /.:/usr/src/myapp
